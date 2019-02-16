@@ -1,0 +1,30 @@
+    <?php
+ $name = $_POST["nome"];
+echo($name);
+echo("<br>");
+$name = $_POST["senha"];
+echo($name);
+echo("<br>");
+$name = $_POST["musica"];
+echo($name);
+echo("<br>");
+$name = $_POST["esporte"];
+echo($name);
+echo("<br>");
+$name = $_POST["livro"];
+echo($name);
+echo("<br>");
+$name = $_POST["arquivo"];
+echo($name);
+echo("<br>");
+$name = $_POST["cidade"];
+echo($name);
+echo("<br>");
+$name = $_POST["avaliacao"];
+echo($name);
+echo("<br>");
+$name = $_POST["comentario"];
+echo($name);
+echo("<br>");
+echo "<br><a href=\"javascript:history.go(-1)\">voltar</a>";
+?>
